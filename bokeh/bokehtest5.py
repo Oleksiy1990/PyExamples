@@ -46,6 +46,8 @@ def update_func():
         y = 0*np.sin(x + counter)
     source.data = dict(x=x, y=y)
 update_func.counter = 0
+
+
 # Set up plot
 plot = figure(plot_height=400, plot_width=400, title="my sine wave",
               tools="crosshair,pan,reset,save,wheel_zoom",
